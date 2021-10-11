@@ -15,6 +15,10 @@ body {
     padding-top: 20px;
 }
 
+.grey {
+    color: #8a8a8a;
+}
+
 /* HEADER */
 
 /* Logo */
@@ -32,13 +36,12 @@ body {
     padding-top: 40px;
 }
 
-.menu-btn li {
+.menu-btn .grey, li {
     display: inline-block;
     list-style-type: none;
     text-transform: uppercase;
     font-size: 18px;
     padding-right: 1%;
-    color: #8a8a8a;
 }
 
 /* Banner */
@@ -71,10 +74,12 @@ body {
     margin-bottom: 10px;
 }
 
-.prov2 {
-    height: 50px;
-    background-color: #abcfe7;
+.main-title {
     margin-bottom: 20px;
+}
+.main-title h2 {
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .clearfix::after {
