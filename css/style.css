@@ -6,6 +6,9 @@
 }
 
 /* COMMON */
+body {
+    font-family: montserrat, arial;
+}
 .container{
     width: 90%;
     margin: auto;
@@ -13,20 +16,37 @@
 }
 
 /* HEADER */
+
+/* Logo */
 .logo {
     height: 50px;
     width: 11%;
     border-right: 1px solid lightgrey;
 }
-
 .logo img {
     height: 100%;
 }
 
-.prov1 {
-    height: 300px;
+/* Navigator */
+.menu {
+    padding-top: 40px;
+}
+
+.menu-btn li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 1%;
+    color: #8a8a8a;
+}
+
+/* Banner */
+.banner {
+    height: 500px;
     background-color: #e1d67a;
     margin: 20px 0;
+    background-image: url(../img/banner.jpg);
 }
 
 /* MAIN */
