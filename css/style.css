@@ -72,8 +72,6 @@ body {
 /* MAIN */
 
 .main-container {
-    background-color: #0085fe;
-    height: 390px;
     margin-bottom: 10px;
 }
 
@@ -96,21 +94,15 @@ body {
     float: left;
 }
 .col-left {
-    height: 300px;
-    background-color: #abcfe7;
     width: 23%;
 }
 
 .col-center {
-    height: 300px;
-    background-color: #abcfe7;
     width: 50%;
     margin: 0 2%;
 }
 
 .col-right {
-    height: 300px;
-    background-color: #abcfe7;
     width: 23%;
 }
 
@@ -128,6 +120,15 @@ body {
 }
 .lightbulb-img {
     background-image: url(../img/img-3.jpg);
+}
+
+/* Contained-text-col */
+.text-col {
+    padding-top: 20px;
+}
+
+.text-col p {
+    padding-top: 10px;
 }
 
 /* FOOTER */
