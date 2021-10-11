@@ -133,6 +133,11 @@ body {
 
 /* FOOTER */
 footer {
-    height: 30px;
-    background-color: #8801fe;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#heart {
+    color: red;
+    font-size: 25px;
 }
