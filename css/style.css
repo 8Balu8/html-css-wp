@@ -47,6 +47,20 @@ body {
     background-color: #e1d67a;
     margin: 20px 0;
     background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.banner-text {
+    width: 50%;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
 }
 
 /* MAIN */
