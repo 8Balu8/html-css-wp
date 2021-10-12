@@ -52,6 +52,11 @@ body {
     padding-right: 1%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Banner */
 .banner {
     height: 500px;
